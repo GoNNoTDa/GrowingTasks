@@ -1,74 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" MasterPageFile="~/MasterPage.master" Title="contact" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <!-- Basic Page Needs
-  ================================================== -->
-    <meta charset="utf-8">
-    <title>Get in Touch | Icebrrrg by OD</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Mobile Specific Metas
-  ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- CSS
-  ================================================== -->
-    <link rel="stylesheet" href="stylesheets/base.css">
-    <link rel="stylesheet" href="stylesheets/skeleton.css">
-    <link rel="stylesheet" href="stylesheets/layout.css">
-    <link rel="stylesheet" href="stylesheets/flexslider.css">
-    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
-    <!-- CSS
-  ================================================== -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-    <script type="text/javascript" src="js/jquery.jigowatt.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-    <!-- Favicons
-	================================================== -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-</head>
-<body>
-    <!-- Primary Page Layout
-	================================================== -->
-    <header id="header" class="site-header" role="banner">
-    <div id="header-inner" class="container sixteen columns over">
-    <hgroup class="one-third column alpha">
-    <h1 id="site-title" class="site-title">
-    <a href="index.html" id="logo"><img src="images/icebrrrg-logo.png" alt="Icebrrrg logo" height="63" width="157" /></a>
-    </h1>
-    </hgroup>
-    <nav id="main-nav" class="two thirds column omega">
-    <ul id="main-nav-menu" class="nav-menu">
-    <li id="menu-item-1">
-    <a href="index.html">Home</a>
-    </li>
-    <li id="menu-item-2">
-    <a href="three-column.html">Three Column</a>
-    </li>
-    <li id="menu-item-3">
-    <a href="sidebar-right.html">Sidebar Right</a>
-    </li>
-    <li id="menu-item-4">
-    <a href="sidebar-left.html">Sidebar Left</a>
-    </li>
-    <li id="menu-item-5">
-    <a href="full-width.html">Full Width</a>
-    </li>
-    <li id="menu-item-6" class="current">
-    <a href="contact.html">Contact</a>
-    </li>
-    </ul>
-    </nav>
-    </div>
-    </header>
+<asp:content id="Content1" contentplaceholderid="Head" runat="Server">
+</asp:content>
+<asp:content id="Content2" contentplaceholderid="MainContent" runat="Server">
     <div class="container">
         <article class="ten columns main-content">
         <h1>We like it when people send us messages</h1>
@@ -184,49 +118,4 @@
         </aside>
         <!-- End Right Sidebar -->
     </div>
-    <footer>
-
-<div class="footer-inner container">
-
-
-<div class="social footer-columns one-third column">
-<h2><i class="icon-bullhorn icon-large"></i> Get Social</h2>
-<p>Want to stalk us? That would be super:</p>
-<ul>
-<li><a href="http://www.twitter.com/opendesigns/"><i class="icon-twitter-sign icon-large"></i> Twitter</a></li>
-<li><a href="http://www.facebook.com/opendesigns"><i class="icon-facebook-sign icon-large"></i> Facebook</a></li>
-<li><a href="https://plus.google.com/b/110224753971231624818/110224753971231624818/posts"><i class="icon-google-plus-sign icon-large"></i> Google+</a></li>
-</ul>
-</div>
-
-<div class="footer-columns one-third column">
-<h2><i class="icon-book icon-large"></i> License</h2>
-<p>Icebrrrg is free under the <a href="http://creativecommons.org/licenses/by/3/">CC3.0 license</a>, which means you can do whatever the heck you like with it - even using it commercially.  All you have to do is leave the credit link in the footer intact.  Cool?</p>
-
-</div>
-
-<div class="footer-columns one-third column">
-<h2><i class="icon-user icon-large"></i> About Us</h2>
-<p>This is where you tell the world how awesome you are.  Us?  We're Open Designs, a community of web designers offering free templates and resources to people like you to use on your own websites.  We love design, code and tinkering.  What do you love?</p>
-</div>
-
-</div>
-
-<div id="footer-base">
-<div class="container">
-<div class="eight columns">
-<a href="http://www.opendesigns.org/design/icebrrrg/">Icebrrg Website Template</a> &copy; 2012
-</div>
-
-<div class="eight columns far-edge">
-Design by <a href="http://www.opendesigns.org">OD</a>
-</div>
-</div>
-</div>
-
-</footer>
-    <!-- End Document
-================================================== -->
-    <script src="js/jquery.prettyPhoto.js"></script>
-</body>
-</html>
+</asp:content>
