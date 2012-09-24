@@ -1,55 +1,43 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="three-column.aspx.cs" Inherits="three_column" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-	<!-- Basic Page Needs
+    <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>A Right-Hand Sidebar Layout | Icebrrrg by OD</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<!-- Mobile Specific Metas
+    <meta charset="utf-8">
+    <title>A Three Column Layout | Icebrrrg by OD</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
-    <link rel="stylesheet" href="stylesheets/flexslider.css">
-    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- CSS
   ================================================== -->
- 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/flexslider.css">
+    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+    <!-- CSS
+  ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/scripts.js"></script>
-
-	<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-	<!-- Favicons
+    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
-
-
-
-	<!-- Primary Page Layout
+    <!-- Primary Page Layout
 	================================================== -->
-
-	<header id="header" class="site-header" role="banner">
+    <header id="header" class="site-header" role="banner">
     <div id="header-inner" class="container sixteen columns over">
     <hgroup class="one-third column alpha">
     <h1 id="site-title" class="site-title">
@@ -61,10 +49,10 @@
     <li id="menu-item-1">
     <a href="index.html">Home</a>
     </li>
-    <li id="menu-item-2">
+    <li id="menu-item-2" class="current">
     <a href="three-column.html">Three Column</a>
     </li>
-    <li id="menu-item-3" class="current">
+    <li id="menu-item-3">
     <a href="sidebar-right.html">Sidebar Right</a>
     </li>
     <li id="menu-item-4">
@@ -80,11 +68,30 @@
     </nav>
     </div>
     </header>
-
-	<div class="container">
-            
+    <div class="container">
+        <aside class="four columns left-sidebar">
+        <div class="sidebar-widget">
+        <h2>What is this?</h2>
+        <p>This is the hallowed three column layout.  In this side bar you can do whatever - link to ice cold bloggers, show off your knowledge of the polar ice caps, or just share a photo of a cute pengiun.  LOLPengz anyone?</p>
+        </div>
         
-        <article class="ten columns main-content">
+        <div class="sidebar-widget">
+        <h2>Some links</h2>
+        <ul>
+        <li><a href="#">Penguin kicks a polar bears ass</a></li>
+        <li><a href="#">Scientists insert abandoned ship inside an iceberg</a></li>
+        <li><a href="#">How big was the iceberg that sunk the Titanic?</a></li>
+        </ul>
+        </div>
+        
+        <div class="sidebar-widget">
+        <h2>Icebergs are cool, man</h2>
+        <p>Few things in life are as beautiful, awe-inspiring and cool - both literally and figuratively - as an iceberg.  Except, maybe, Iceberrrg.</p>
+        </div>
+        
+        </aside>
+        <!-- End Left Sidebar -->
+        <article class="eight columns main-content">
         <h1>This is what an article headline looks like in Icebrrrg</h1>
         
         <img src="images/iceberg3.jpg" class="scale-with-grid">
@@ -104,9 +111,7 @@
       
         </article>
         <!-- End main Content -->
-        
-        
-        <aside class="six columns right-sidebar">
+        <aside class="four columns right-sidebar">
         
         <div class="sidebar-widget social">
         <h2>Like this?</h2>
@@ -119,32 +124,32 @@
         </div>
         
         
-        <div class="recent-posts sidebar-widget six columns">
+        <div class="recent-posts sidebar-widget four columns">
         <h2>Latest articles</h2>
-        <article class="six columns alpha">
+        <article class="four columns alpha">
      
-     <div class="two columns alpha">
+     <div class="one columns alpha">
      <div class="featured-image img-wrapper">
      <img src="images/iceberg1.jpg" class="scale-with-grid thumb-link">
      </div>
      </div>
      
-     <div class="four columns omega">
+     <div class="three columns omega">
      <h4><a href="#">10 Reasons Why Icebrrrg Is Really Cool</a></h4>
     
      </div>
      
      </article>
      
-     <article class="six columns alpha">
+     <article class="four columns alpha">
      
-     <div class="two columns alpha">
+     <div class="one columns alpha">
      <div class="featured-image img-wrapper">
      <img src="images/iceberg2.jpg" class="scale-with-grid thumb-link">
      </div>
      </div>
      
-     <div class="four columns omega">
+     <div class="three columns omega">
      <h4><a href="#">10 More Reasons Why Icebrrrg Is Really Cool</a></h4>
     
      </div>
@@ -172,10 +177,8 @@
         
         </aside>
         <!-- End Right Sidebar -->
-    
     </div>
-
-<footer>
+    <footer>
 
 <div class="footer-inner container">
 
@@ -216,11 +219,8 @@ Design by <a href="http://www.opendesigns.org">OD</a>
 </div>
 
 </footer>
-
-<!-- End Document
+    <!-- End Document
 ================================================== -->
-
-<script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
 </body>
 </html>
-
