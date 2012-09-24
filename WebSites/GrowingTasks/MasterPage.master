@@ -38,35 +38,24 @@
 </head>
 <body>
     <header id="header" class="site-header" role="banner">
-    <div id="header-inner" class="container sixteen columns over">
-    <hgroup class="one-third column alpha">
-    <h1 id="site-title" class="site-title">
-    <a href="Default.aspx" id="logo"><img src="images/icebrrrg-logo.png" alt="Icebrrrg logo" height="63" width="157" /></a>
-    </h1>
-    </hgroup>
-    <nav id="main-nav" class="two thirds column omega">
-    <ul id="main-nav-menu" class="nav-menu">
-    <li id="menu-item-1" class="current">
-    <a href="Default.aspx">Home</a>
-    </li>
-    <li id="menu-item-2">
-    <a href="three-column.aspx">Three Column</a>
-    </li>
-    <li id="menu-item-3">
-    <a href="sidebar-right.aspx">Sidebar Right</a>
-    </li>
-    <li id="menu-item-4">
-    <a href="sidebar-left.aspx">Sidebar Left</a>
-    </li>
-    <li id="menu-item-5">
-    <a href="full-width.aspx">Full Width</a>
-    </li>
-    <li id="menu-item-6">
-    <a href="contact.aspx">Contact</a>
-    </li>
-    </ul>
-    </nav>
-    </div>
+        <div id="header-inner" class="container sixteen columns over">
+            <hgroup class="one-third column alpha">
+                <h1 id="site-title" class="site-title">
+                    <a href="Default.aspx" id="logo">
+                        <img src="images/icebrrrg-logo.png" alt="Icebrrrg logo" height="63" width="157" /></a>
+                </h1>
+            </hgroup>
+            <nav id="main-nav" class="two thirds column omega">
+                <ul id="main-nav-menu" class="nav-menu">
+                    <li id="menu-item-1" class="current"><a href="Default.aspx">Home</a> </li>
+                    <li id="menu-item-2"><a href="three-column.aspx">Three Column</a> </li>
+                    <li id="menu-item-3"><a href="sidebar-right.aspx">Sidebar Right</a> </li>
+                    <li id="menu-item-4"><a href="sidebar-left.aspx">Sidebar Left</a> </li>
+                    <li id="menu-item-5"><a href="full-width.aspx">Full Width</a> </li>
+                    <li id="menu-item-6"><a href="contact.aspx">Contact</a> </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <form id="form1" runat="server">
     <div>
@@ -75,45 +64,52 @@
     </div>
     </form>
     <footer>
-
-<div class="footer-inner container">
-
-
-<div class="social footer-columns one-third column">
-<h2><i class="icon-bullhorn icon-large"></i> Get Social</h2>
-<p>Want to stalk us? That would be super:</p>
-<ul>
-<li><a href="http://www.twitter.com/opendesigns/"><i class="icon-twitter-sign icon-large"></i> Twitter</a></li>
-<li><a href="http://www.facebook.com/opendesigns"><i class="icon-facebook-sign icon-large"></i> Facebook</a></li>
-<li><a href="https://plus.google.com/b/110224753971231624818/110224753971231624818/posts"><i class="icon-google-plus-sign icon-large"></i> Google+</a></li>
-</ul>
-</div>
-
-<div class="footer-columns one-third column">
-<h2><i class="icon-book icon-large"></i> License</h2>
-<p>Icebrrrg is free under the <a href="http://creativecommons.org/licenses/by/3/">CC3.0 license</a>, which means you can do whatever the heck you like with it - even using it commercially.  All you have to do is leave the credit link in the footer intact.  Cool?</p>
-
-</div>
-
-<div class="footer-columns one-third column">
-<h2><i class="icon-user icon-large"></i> About Us</h2>
-<p>This is where you tell the world how awesome you are.  Us?  We're Open Designs, a community of web designers offering free templates and resources to people like you to use on your own websites.  We love design, code and tinkering.  What do you love?</p>
-</div>
-
-</div>
-
-<div id="footer-base">
-<div class="container">
-<div class="eight columns">
-<a href="http://www.opendesigns.org/design/icebrrrg/">Icebrrg Website Template</a> &copy; 2012
-</div>
-
-<div class="eight columns far-edge">
-Design by <a href="http://www.opendesigns.org">OD</a>
-</div>
-</div>
-</div>
-</footer>
-<script src="js/jquery.prettyPhoto.js"></script>
+        <div class="footer-inner container">
+            <div class="social footer-columns one-third column">
+                <h2>
+                    <i class="icon-bullhorn icon-large"></i>Get Social</h2>
+                <p>
+                    Want to stalk us? That would be super:</p>
+                <ul>
+                    <li><a href="http://www.twitter.com/opendesigns/"><i class="icon-twitter-sign icon-large">
+                    </i>Twitter</a></li>
+                    <li><a href="http://www.facebook.com/opendesigns"><i class="icon-facebook-sign icon-large">
+                    </i>Facebook</a></li>
+                    <li><a href="https://plus.google.com/b/110224753971231624818/110224753971231624818/posts">
+                        <i class="icon-google-plus-sign icon-large"></i>Google+</a></li>
+                </ul>
+            </div>
+            <div class="footer-columns one-third column">
+                <h2>
+                    <i class="icon-book icon-large"></i>License</h2>
+                <p>
+                    Icebrrrg is free under the <a href="http://creativecommons.org/licenses/by/3/">CC3.0
+                        license</a>, which means you can do whatever the heck you like with it - even
+                    using it commercially. All you have to do is leave the credit link in the footer
+                    intact. Cool?</p>
+            </div>
+            <div class="footer-columns one-third column">
+                <h2>
+                    <i class="icon-user icon-large"></i>About Us</h2>
+                <p>
+                    This is where you tell the world how awesome you are. Us? We're Open Designs, a
+                    community of web designers offering free templates and resources to people like
+                    you to use on your own websites. We love design, code and tinkering. What do you
+                    love?</p>
+            </div>
+        </div>
+        <div id="footer-base">
+            <div class="container">
+                <div class="eight columns">
+                    <a href="http://www.opendesigns.org/design/icebrrrg/">Icebrrg Website Template</a>
+                    &copy; 2012
+                </div>
+                <div class="eight columns far-edge">
+                    Design by <a href="http://www.opendesigns.org">OD</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.prettyPhoto.js"></script>
 </body>
 </html>
