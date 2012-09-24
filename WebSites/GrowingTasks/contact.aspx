@@ -1,56 +1,44 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="contact.aspx.cs" Inherits="contact" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
-	<!-- Basic Page Needs
+    <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="utf-8">
-	<title>Get in Touch | Icebrrrg by OD</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<!-- Mobile Specific Metas
+    <meta charset="utf-8">
+    <title>Get in Touch | Icebrrrg by OD</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="stylesheets/base.css">
-	<link rel="stylesheet" href="stylesheets/skeleton.css">
-	<link rel="stylesheet" href="stylesheets/layout.css">
-    <link rel="stylesheet" href="stylesheets/flexslider.css">
-    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- CSS
   ================================================== -->
- 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+    <link rel="stylesheet" href="stylesheets/flexslider.css">
+    <link rel="stylesheet" href="stylesheets/prettyPhoto.css">
+    <!-- CSS
+  ================================================== -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="js/jquery.jigowatt.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-
-	<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-	<!-- Favicons
+    <!-- Favicons
 	================================================== -->
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
-
-
-
-	<!-- Primary Page Layout
+    <!-- Primary Page Layout
 	================================================== -->
-
-	<header id="header" class="site-header" role="banner">
+    <header id="header" class="site-header" role="banner">
     <div id="header-inner" class="container sixteen columns over">
     <hgroup class="one-third column alpha">
     <h1 id="site-title" class="site-title">
@@ -81,10 +69,7 @@
     </nav>
     </div>
     </header>
-
-	<div class="container">
-            
-        
+    <div class="container">
         <article class="ten columns main-content">
         <h1>We like it when people send us messages</h1>
         
@@ -132,8 +117,6 @@
         
         </article>
         <!-- End main Content -->
-        
-        
         <aside class="six columns right-sidebar">
         
         <div class="sidebar-widget social">
@@ -200,10 +183,8 @@
         
         </aside>
         <!-- End Right Sidebar -->
-    
     </div>
-
-<footer>
+    <footer>
 
 <div class="footer-inner container">
 
@@ -244,11 +225,8 @@ Design by <a href="http://www.opendesigns.org">OD</a>
 </div>
 
 </footer>
-
-<!-- End Document
+    <!-- End Document
 ================================================== -->
-
-<script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
 </body>
 </html>
-
